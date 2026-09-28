@@ -1,5 +1,7 @@
 # Khánh Hoàng — Portfolio
 
+Repository: `maikhanhhoang-cmyk/porfolio_khanh-hoang`
+
 A responsive Vietnamese-language portfolio built with Next.js App Router, React, and TypeScript. The portfolio includes selected concept case studies, profile, services, and a contact link.
 
 ## Run locally
