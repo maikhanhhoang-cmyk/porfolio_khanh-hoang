@@ -61,8 +61,8 @@ export default function Home() {
         </div>
         <div className="hero-baseline">
           <span>PRODUCT DESIGNER <b>×</b> DEVELOPER</span>
-          <span>ĐANG Ở TP. HỒ CHÍ MINH, VIỆT NAM</span>
-          <span>10°46′ N&nbsp; 106°42′ E</span>
+          <span>ĐANG HỌC TẬP TẠI ĐÀ NẴNG</span>
+          <span>16°03′ N&nbsp; 108°13′ E</span>
         </div>
         <div className="hero-rule" />
         <div className="hero-stamp" aria-hidden="true"><span>MAKE<br />GOOD<br />THINGS</span><b>✳</b></div>
@@ -96,6 +96,11 @@ export default function Home() {
           <div className="about-copy">
             <p className="about-lead">Mình là Khánh, một product designer thích biến những vấn đề phức tạp thành trải nghiệm đơn giản và giàu cảm xúc.</p>
             <p>Mình làm việc ở giao điểm giữa tư duy sản phẩm, thiết kế thị giác và công nghệ. Từ phác thảo đầu tiên đến dòng code cuối cùng, mình tin những chi tiết nhỏ luôn tạo nên khác biệt lớn.</p>
+            <dl className="profile-facts" aria-label="Thông tin cá nhân">
+              <div><dt>Ngày sinh</dt><dd>11/07/2006</dd></div>
+              <div><dt>Quê quán</dt><dd>Phong Nha, Quảng Bình</dd></div>
+              <div><dt>Học tập</dt><dd>Đại học Duy Tân, Đà Nẵng</dd></div>
+            </dl>
             <div className="services"><span className="eyebrow">MÌNH CÓ THỂ GIÚP BẠN</span><ul>{services.map((service) => <li key={service}>{service}<span aria-hidden="true">↗</span></li>)}</ul></div>
           </div>
           <div className="about-aside"><span>DESIGN WITH INTENTION.</span><span>BUILD WITH CURIOSITY.</span><span className="asterisk" aria-hidden="true">✳</span></div>
