@@ -46,6 +46,7 @@ export default function Home() {
         <nav aria-label="Điều hướng chính">
           <a href="#work">Dự án <span>03</span></a>
           <a href="#about">Về mình</a>
+          <a href="#football">Bóng đá</a>
           <a className="nav-contact" href="#contact">Liên hệ <span aria-hidden="true">↗</span></a>
         </nav>
       </header>
@@ -107,8 +108,41 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="football-section" id="football">
+        <div className="football-inner wrap">
+          <div className="football-heading">
+            <div><span className="eyebrow">03 / NGOÀI THIẾT KẾ</span><h2>Hẹn nhau<br />trên sân cỏ.</h2></div>
+            <p>Bóng đá là khoảng nghỉ mình yêu thích: một trận đấu hay, một buổi đá vui và thật nhiều năng lượng đồng đội.</p>
+          </div>
+          <div className="football-grid">
+            <div className="football-image">
+              <img
+                src="/images/khanh-hoang-football.jpg"
+                alt="Khánh Hoàng thi đấu bóng đá trong trang phục áo số 6"
+                loading="lazy"
+              />
+              <span>NGOÀI GIỜ LÀM VIỆC · 90 PHÚT</span>
+            </div>
+            <div className="football-details">
+              <div className="football-interest">
+                <span className="eyebrow">MÌNH THÍCH</span>
+                <p>Theo dõi những trận cầu hấp dẫn, bàn luận chiến thuật và cảm nhận bầu không khí bóng đá cùng bạn bè.</p>
+              </div>
+              <div className="football-activities">
+                <span className="eyebrow">TRÊN SÂN &amp; NGOÀI KHÁN ĐÀI</span>
+                <ul>
+                  <li><span>01</span> Đá bóng giao lưu, rèn sức bền và tinh thần đồng đội.</li>
+                  <li><span>02</span> Hẹn bạn bè xem và cổ vũ những trận đấu lớn.</li>
+                  <li><span>03</span> Tìm cảm hứng từ nhịp chơi, chiến thuật và câu chuyện của mỗi đội.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer className="contact-section wrap" id="contact">
-        <span className="eyebrow">03 / BẮT ĐẦU MỘT ĐIỀU GÌ ĐÓ</span>
+        <span className="eyebrow">04 / BẮT ĐẦU MỘT ĐIỀU GÌ ĐÓ</span>
         <div className="contact-row"><h2>Có ý tưởng<br />hay ho chứ?</h2><a className="contact-link" href="mailto:hello@khanhhoang.design">Hãy kể mình nghe <span aria-hidden="true">↗</span></a></div>
         <div className="footer-bottom"><a className="wordmark" href="#home">KH<span>.</span></a><span>THIẾT KẾ TỪ SỰ QUAN TÂM · © 2025</span><div className="social-links"><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="https://www.behance.net/" target="_blank" rel="noreferrer">BEHANCE ↗</a></div></div>
       </footer>
